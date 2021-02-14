@@ -14,6 +14,7 @@ class initialise
         $this->setup_cpt();
         $this->register_cpt();
         $this->switch_on_metaboxes();
+        $this->register_REST_metadata();
     }
 
     public function setup_cpt()
@@ -40,6 +41,11 @@ class initialise
     public function switch_on_metaboxes()
     {
         new acf\switch_on_metaboxes;
+    }
+
+    public function register_REST_metadata()
+    {
+        new REST\metadata;
     }
 
 
