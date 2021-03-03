@@ -26,6 +26,12 @@ class metadata
                 },
             ) );
 
+            register_rest_field( 'pulse', 'videoId', array(
+                'get_callback' => function( $post_arr ) {
+                    return get_post_meta( $post_arr['id'], 'videoId', true );
+                },
+            ) );
+
             register_rest_field( 'pulse', 'imageURL', array(
                 'get_callback' => function( $post_arr ) {
                     return get_the_post_thumbnail_url( $post_arr['id'], 'medium' );
