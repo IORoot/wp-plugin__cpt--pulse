@@ -41,14 +41,14 @@ class metadata
 
             register_rest_field( 'pulse', 'imageWidth', array(
                 'get_callback' => function( $post_arr ) {
-                    $img = wp_get_attachment_image_src(get_post_thumbnail_id($post_arr['id']), 'thumbnail');
+                    $img = wp_get_attachment_image_src(get_post_thumbnail_id($post_arr['id']), 'medium');
                     return $img[1];
                 },
             ) );
 
             register_rest_field( 'pulse', 'imageHeight', array(
                 'get_callback' => function( $post_arr ) {
-                    $img = wp_get_attachment_image_src(get_post_thumbnail_id($post_arr['id']), 'thumbnail');
+                    $img = wp_get_attachment_image_src(get_post_thumbnail_id($post_arr['id']), 'medium');
                     return $img[2];
                 },
             ) );
