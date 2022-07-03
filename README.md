@@ -1,5 +1,4 @@
 
-
 <div id="top"></div>
 
 <div align="center">
@@ -18,6 +17,16 @@
 ##  1. <a name='TableofContents'></a>Table of Contents
 
 
+* 1. [Table of Contents](#TableofContents)
+* 2. [About The Project](#AboutTheProject)
+	* 2.1. [Built With](#BuiltWith)
+	* 2.2. [Installation](#Installation)
+* 3. [Usage](#Usage)
+* 4. [Customising](#Customising)
+* 5. [Contributing](#Contributing)
+* 6. [License](#License)
+* 7. [Contact](#Contact)
+* 8. [Changelog](#Changelog)
 
 
 ##  2. <a name='AboutTheProject'></a>About The Project
@@ -29,7 +38,7 @@ Used on ParkourPulse.com, the pulse CPT is where the results of the youtube API 
 
 
 
-###  2.2. <a name='BuiltWith'></a>Built With
+###  2.1. <a name='BuiltWith'></a>Built With
 
 This project was built with the following frameworks, technologies and software.
 
@@ -42,7 +51,7 @@ This project was built with the following frameworks, technologies and software.
 
 
 
-###  2.3. <a name='Installation'></a>Installation
+###  2.2. <a name='Installation'></a>Installation
 
 These are the steps to get up and running with this plugin.
 
